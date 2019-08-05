@@ -33,3 +33,19 @@ http://localhost:5001/api/auth/entrar
 ```
 
  ![alt text](https://github.com/leandro0404/graphql-authorization-example/blob/master/img/query-product.png)
+
+````
+query {
+  product{
+    id,
+    name,
+    price
+  }
+}
+
+
+
+{
+  "Authorization":"Bearer SEU TOKEN JTW QUE FOI GERADO NA URL http://localhost:5000/api/auth/nova-conta OU  http://localhost:5001/api/auth/entrar "
+}
+````
