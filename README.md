@@ -1,6 +1,6 @@
 # graphql-authorization-example
 exemplo de api graphql  com authenticação  por nó {field}
-
+ ![alt text](https://github.com/leandro0404/graphql-authorization-example/blob/master/img/authorize-code.png)
 
 para criar um usuário  em memória e gerar o token  faça a requisição abaixo.
 
