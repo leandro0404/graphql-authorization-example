@@ -17,3 +17,17 @@ http://localhost:5000/api/auth/nova-conta
 }
 
 ```
+
+se o usuário já existir receba um novo token .
+
+```
+//Post
+http://localhost:5001/api/auth/entrar
+
+{
+	"email":"teste@gmail.com",
+	"password":"Teste@123",
+	"ConfirmPassword":"Teste@123"
+}
+
+```
