@@ -57,7 +57,8 @@ namespace graphql_authorization_example.GraphQL
         {
             Field(x => x.Id);
             Field(x => x.Name);
-            Field(x => x.Price).AuthorizeWith(AuthorizePolicy.Email);
+            //  precisa de ter os 2  conjuntos de authorize no token  para  resolver o field
+            Field(x => x.Price).AuthorizeWith(AuthorizePolicy.Email).AuthorizeWith(AuthorizePolicy.Admin);
         }
     }
     public class ProductInputType : InputObjectGraphType<Product>
