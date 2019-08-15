@@ -34,7 +34,7 @@ http://localhost:5001/api/auth/entrar
 
  ![alt text](https://github.com/leandro0404/graphql-authorization-example/blob/master/img/query-product.png)
 
-````
+```graphql
 query {
   product{
     id,
