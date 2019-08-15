@@ -4,7 +4,7 @@ exemplo de api graphql  com authenticação  por nó {field}
 
 para criar um usuário  em memória e gerar o token  faça a requisição abaixo.
 
-```
+```graphql
 //Post
 http://localhost:5000/api/auth/nova-conta
 
@@ -20,7 +20,7 @@ http://localhost:5000/api/auth/nova-conta
 
 se o usuário já existir receba um novo token .
 
-```
+```graphql
 //Post
 http://localhost:5001/api/auth/entrar
 
